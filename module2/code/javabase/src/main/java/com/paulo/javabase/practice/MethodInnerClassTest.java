@@ -1,7 +1,5 @@
 package com.paulo.javabase.practice;
 
-import com.sun.prism.shader.Solid_TextureYV12_AlphaTest_Loader;
-
 public class MethodInnerClassTest {
     private int property1 = 1;
 

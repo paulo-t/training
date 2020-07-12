@@ -5,5 +5,5 @@ package com.paulo.javabase.module2;
  */
 public interface CallService {
 
-   void call(int count,PhoneCard phoneCard);
+   void call(int count, PhoneCard phoneCard);
 }
