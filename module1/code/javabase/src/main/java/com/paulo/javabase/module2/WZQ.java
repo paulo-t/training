@@ -122,22 +122,21 @@ public class WZQ {
             }
         }
 
-        if (COUNT == columnSum || COUNT == rowSum || COUNT == leftSum || COUNT == rightSum) {
-            return true;
-        } else if (-COUNT == columnSum || -COUNT == rowSum || -COUNT == leftSum || -COUNT == rightSum) {
-            return true;
-        } else {
-            return false;
-        }
+        return false;
     }
 
-    private static boolean fullCount(int count){
-        if(Math.abs(count) == COUNT){
-            return  true;
+    /**
+     * 连续的棋子是否达到最大值
+     */
+    private static boolean fullCount(int count) {
+        if (Math.abs(count) == COUNT) {
+            return true;
         }
 
         return false;
     }
+
+
     /**
      * 计算连续的和
      */
