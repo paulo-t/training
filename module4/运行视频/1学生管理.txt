@@ -1,0 +1,2 @@
+1.定义AgeException和StuNoException继承自Exception，在set和get方法中校验学号和年龄的合法性，不合法时抛出异常
+2.在程序启动时通过objectInputStream去读取文件中的学生信息加载到内存中，停止程序时通过objectOutputStream将学生信息保存到指定的路径下

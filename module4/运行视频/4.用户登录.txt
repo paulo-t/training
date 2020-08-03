@@ -1,0 +1,5 @@
+1.用户输入用户名和密码后构建相应的信息类
+2.通过ObjectOutputStream将对象序列化后发送到服务端
+3.服务端通过ObjectIntputStream反序列化对象后对用户名和密码进行校验通过则success否则fail
+4.将验证信息通过ObjectOutputStream发送到客户端
+5.客户端通过ObjectInputStream拿到校验结果并展示
